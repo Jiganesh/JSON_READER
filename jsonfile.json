@@ -1,0 +1,19 @@
+{
+    "Model":{
+      "Networks":[
+        {
+          "Plants":[
+            {
+              "PlantName":"PDR"
+            },
+            {
+              "PlantName":"JR"
+            }
+          ]
+        }
+
+      ]
+    }
+
+  }
+  
