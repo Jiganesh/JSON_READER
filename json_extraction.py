@@ -33,6 +33,15 @@ def get_json_file_path_and_process(file_path):
                 f.close()
         else:
             print("---------------> TYPE NOT SUPPORTED <-----------------")
+            
+            
+            
+    try:   
+        create(folder_name, extension_JSON, plants, attribute)
+        create(folder_name, extension_TXT, plants, attribute)
         
-    create(folder_name, extension_JSON, plants, attribute)
-    create(folder_name, extension_TXT, plants, attribute)
+        print("--------------------Files Generated Successfully--------------------------------")
+    except:
+        print("---------------------There was error in running---------------------------------")
+    finally:
+        print("------------------------Please close the application----------------------------")

@@ -1,0 +1,18 @@
+{
+    "Model": {
+        "Networks": [
+            {
+                "Plants": [
+                    {
+                        "PlantName": "SR"
+                    }
+                ]
+            },
+            {
+                "DummyData": {
+                    "Name": "No Name"
+                }
+            }
+        ]
+    }
+}
